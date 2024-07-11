@@ -1,7 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@font-face {
+  font-family: "Rockwell";
+  src: url("../fonts/Rockwell.ttf") format("truetype");
+}
+
+:root {
+  --Rose: #ea9191;
+  --Bleu: #4b4975;
+  --Jaune: #e6b331;
+  --LightJaune: #edc566;
+}
+
 header {
-    background-image: url(../img/photo.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  background-image: url(../img/photo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 1px;
+}
+
+header .titre {
+  margin: 150px 0;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+p,
+h2,
+h5 {
+  font-family: "Rockwell";
+}
+
+.Roboto-font {
+  font-family: "Roboto", sans-serif;
+}
+
+.img-article img {
+  width: 50px;
+}
+
+.img-titre-naturel {
+  background-image: url(../img/grain.png);
+  background-color: var(--LightJaune);
+  padding: 100px 35px 20px 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
 }
